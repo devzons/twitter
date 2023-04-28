@@ -1,11 +1,19 @@
 import { Inter } from 'next/font/google'
+import Sidebar from '@/components/Sidebar'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main>
-      <h1 className='text-7xl'>Twitter</h1>
+    <main className='flex min-h-screen max-w-7xl mx-auto'>
+      {/* Sidebar */}
+      <Sidebar />
+
+      {/* Feed */}
+
+      {/* Widgets */}
+
+      {/* Modal */}
     </main>
   )
 }
