@@ -4,6 +4,8 @@
 
 ### HeroIcons package
 
+- [https://heroicons.com/](https://heroicons.com/)
+
 ```bash
 npm install @heoricons/react
 ```
