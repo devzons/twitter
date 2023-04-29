@@ -15,12 +15,10 @@ import SidebarMenuItems from './SidebarMenuItems'
 
 export default function Sidebar() {
   return (
-    <aside className='hidden sm:flex flex-col p-2 xl:items-start fixed'>
-      {/* Twitter Logo */}
+    <aside className='hidden sm:flex flex-col p-2 xl:items-start fixed h-full xl:ml-24'>
       <div className='hoverEffect p-0 hover:bg-blue-100 xl:px-1'>
         <Image width='50' height='50' src='/logo.png'></Image>
       </div>
-      {/* Menu */}
       <div className='mt-4 mb-2.5 xl:items-start'>
         <SidebarMenuItems text='Home' Icon={HomeIcon} active />
         <SidebarMenuItems text='Explore' Icon={HashtagIcon} />
@@ -32,7 +30,7 @@ export default function Sidebar() {
         <SidebarMenuItems text='More' Icon={EllipsisHorizontalCircleIcon} />
       </div>
       {/* button */}
-      <button className='bg-blue-400 text-white rounded-full w-56 h-12 font-bold shadow-md hover:brightness-95 text-lg hidden xl:inline'>
+      <button className='bg-blue-400 text-white rounded-full w-44 h-12 font-bold shadow-md hover:brightness-95 text-lg hidden xl:inline'>
         Tweet
       </button>
 

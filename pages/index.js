@@ -5,16 +5,26 @@ import Widgets from '@/components/Widgets'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home({ newsResults }) {
   return (
     <main className='flex min-h-screen max-w-7xl mx-auto'>
-      {/* Sidebar */}
       <Sidebar />
-      {/* Feed */}
       <Feed />
-      {/* Widgets */}
-      <Widgets />
+      <Widgets newsResults={newsResults?.articles} />
       {/* Modal */}
     </main>
   )
+}
+
+//https://saurav.tech/NewsAPI/top-headlines/category/business/us.json
+
+export async function getServerSideProps() {
+  const newsResults = await fetch(
+    'https://saurav.tech/NewsAPI/top-headlines/category/business/us.json'
+  ).then((res) => res.json())
+  return {
+    props: {
+      newsResults,
+    },
+  }
 }
