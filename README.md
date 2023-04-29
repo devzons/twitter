@@ -21,3 +21,9 @@ npm install @heoricons/react
 ```bash
 npm install -D @tailwindcss/forms
 ```
+
+### News
+
+- NewsAPI documentation: [https://saurav.tech/NewsAPI/](https://saurav.tech/NewsAPI)
+
+[https://saurav.tech/NewsAPI/top-headlines/category/business/us.json](https://saurav.tech/NewsAPI/top-headlines/category/business/us.json)
