@@ -15,3 +15,9 @@ npm install @heoricons/react
 - Outline 24x24, 1.5px stroke: `import { } from '@heroicons/react/24/outline`
 - Solid 24x24, Solid fill: `import { } from '@heroicons/react/24/solid`
 - Mini, 20x20, Solid fill: `import { } from '@heroicons/react/20/solid`
+
+### Tailwindcss Form
+
+```bash
+npm install -D @tailwindcss/forms
+```
