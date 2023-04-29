@@ -27,3 +27,10 @@ npm install -D @tailwindcss/forms
 - NewsAPI documentation: [https://saurav.tech/NewsAPI/](https://saurav.tech/NewsAPI)
 
 [https://saurav.tech/NewsAPI/top-headlines/category/business/us.json](https://saurav.tech/NewsAPI/top-headlines/category/business/us.json)
+
+### Random user generator
+
+[https://randomuser.me/](https://randomuser.me/)
+
+- Requesting multiple users:
+  [https://randomuser.me/api/?results=50](https://randomuser.me/api/?results=50)
