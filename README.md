@@ -34,3 +34,10 @@ npm install -D @tailwindcss/forms
 
 - Requesting multiple users:
   [https://randomuser.me/api/?results=50](https://randomuser.me/api/?results=50)
+
+### Next-Auth
+
+[Getting Started](https://next-auth.js.org/getting-started/example)
+
+- Be sure to follow:
+  `NECT_APP_` on all environments
